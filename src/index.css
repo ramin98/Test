@@ -27,10 +27,16 @@ li:hover{
 }
 
 .comments{
-  display: flex;
+ display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60%;
+  width: 500px;
+  height: 500px;
+  z-index: 99;
+  background: white;
+  position: fixed;
+  border: 1px solid black;
+  margin-top:20px;
   
 }
 
@@ -38,6 +44,7 @@ li:hover{
   align-self: flex-end;
   font-size: xx-large;
   cursor: pointer;
+  margin-right:10px;
 }
 
 .exit:hover{
