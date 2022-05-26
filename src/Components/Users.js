@@ -22,7 +22,7 @@ const [activePage,activePageSet] = useState(1)
   };
   
     return (
-      <div className="comments">
+      <div className="users">
           <h2>Users</h2>
           
        <ul>{data.map(item => {
