@@ -53,3 +53,8 @@ li:hover{
   transition: 0.3s;
 }
 
+.nav{
+  display: flex;
+  gap: 30px;
+  font-size: x-large;
+}
